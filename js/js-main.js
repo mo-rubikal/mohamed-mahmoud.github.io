@@ -28,4 +28,12 @@
       if ($(window).width() > 1024) {
           $('.head-rubikal .text-action').addClass('scale');
       }
+
+      // pre-loader
+      $(window).on('load', function(){
+        setTimeout(function(){
+          $('.preloader-container').fadeOut('slow', function () {
+          });
+      },1000);
+     });
   });
