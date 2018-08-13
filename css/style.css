@@ -24,7 +24,7 @@
   }
 body{
 background-color: #fff;
-font-family: sans-serif !important;
+font-family: 'Quicksand', sans-serif;
 position:relative}
 
 /* Pre-loader */
@@ -151,8 +151,7 @@ height: 80px;}
 /*-*-*-*-*-* Head Rubikal -*-*-*-*/
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
   .head-rubikal{
-    position: relative;
-    background: #00afc4 url(../images/code-background.png) center center/auto 100% repeat-y;
+    background: url(../images/code-background.png) center center/auto 100% repeat-y;
     background-color: #f2f2f2;
     padding: 2% 0;
     text-align: center;
@@ -247,6 +246,7 @@ height: 80px;}
 }
 
 .scale{
+  font-family:  'VT323', monospace;
   transition: all 1.5s ease-in;
   transform: scale(1);
   transform-origin: center;
@@ -270,11 +270,11 @@ height: 80px;}
 /* Animation blue */
 @-webkit-keyframes moveblue {
   0%   {left: 44.5%;top:28%}
-  100% {left:22%;top: -15%;width:9%;}
+  100% {left:20%;top: -15%;width:9%;}
 }
 @keyframes moveblue {
   0%   {left: 44.5%;top:28%}
-  100% {left:22%;top: -15%;width:9%;}
+  100% {left:20%;top: -15%;width:9%;}
 }
 /* Animation Red */
 @-webkit-keyframes movered {
@@ -1025,7 +1025,7 @@ background-color: #fff;
 .head-rubikal .footer-img-hd {
   bottom: -40px;}
 .blue-prt-logo {
-  left: 10%;
+  left: 6%;
   width: 40px;
   top: 0%;
   animation-name: unset;
