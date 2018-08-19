@@ -96,6 +96,7 @@ font-size: 20px;
   color: #ddd;
   width: 77px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 .navbar-rubikal .navbar-nav a::before {
   content: '';
@@ -246,14 +247,12 @@ height: 80px;}
 }
 
 .scale{
-  font-family:  'VT323', monospace;
   transition: all 1.5s ease-in;
   transform: scale(1);
   transform-origin: center;
   visibility: visible;
   opacity: 1;
   transition-delay: .7s;
-
 }
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-/
 /*-*-*-*-*-* ANIMATIONS -*-*-*-*/
@@ -948,6 +947,9 @@ margin: auto;
       display: inline-block;
       width: 24%;
     }
+    .preloader-container{
+      display: none;
+    }
 }
 @media screen and (min-width:120px) and (max-width:990px) {
   h1,h2,h3,h4,h5,p{
@@ -1050,7 +1052,9 @@ background-color: #fff;
     }
     .service-sect .service-txt p {
       font-size: 20px;
-      width: 100%;}
+      width: 90%;
+      text-align: center;
+      margin: auto;}
       .service-container {
         text-align: center;
       }
@@ -1132,6 +1136,7 @@ background-color: #fff;
               left: -2%;
               position: relative;
           }
+          
           .header-blog-details .img-footer-blog {
             bottom: -10%;}
           .share-blog li {
@@ -1139,6 +1144,7 @@ background-color: #fff;
             margin-right: 6px;}
             .bolg-details p {
               font-size: 15px;}
+              
       }
       @media screen and (max-width:750px) {
         .service-container, .ceo2 {
