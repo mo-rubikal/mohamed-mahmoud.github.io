@@ -94,7 +94,7 @@ font-size: 20px;
   margin: 0 6px;
   letter-spacing: 1px;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-  color: #ddd;
+  color: #aaa;
   width: 77px;
   text-align: center;  
 }
@@ -119,6 +119,7 @@ font-size: 20px;
 }
 .navbar-rubikal .navbar-nav li.active >a{
 color: #000;
+font-weight: 400;
 background-color: transparent;
 }
 .navbar-rubikal .navbar-nav li.active#home >a::before{
@@ -373,7 +374,8 @@ top: 19%;
 }
 
 .service-sect .section-head {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 16%;
   padding: 5px 0;
   background: url(../images/grey-line.gif) center repeat-x;
