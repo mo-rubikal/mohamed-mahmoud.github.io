@@ -95,8 +95,7 @@ font-size: 20px;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
   color: #ddd;
   width: 77px;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  text-align: center;  
 }
 .navbar-rubikal .navbar-nav a::before {
   content: '';
@@ -253,6 +252,7 @@ height: 80px;}
   visibility: visible;
   opacity: 1;
   transition-delay: .7s;
+  font-family: 'IM Fell English', serif;
 }
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-/
 /*-*-*-*-*-* ANIMATIONS -*-*-*-*/
