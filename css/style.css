@@ -96,7 +96,7 @@ font-size: 20px;
   color: #ddd;
   width: 77px;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 .navbar-rubikal .navbar-nav a::before {
   content: '';
