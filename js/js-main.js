@@ -25,15 +25,21 @@
             scrollTop: $("#services").offset().top
         }, 2000);
       });
-      if ($(window).width() > 1024) {
-          $('.head-rubikal .text-action').addClass('scale');
-      }
+    
 
       // pre-loader
       $(window).on('load', function(){
         setTimeout(function(){
           $('.preloader-container').fadeOut('slow', function () {
+            if ($(window).width() > 1024) {
+              $('.head-rubikal .text-action').addClass('scale');
+              $('.red-prt-logo').addClass('red-prt-animation');
+              $('.yellow-prt-logo').addClass('yellow-prt-animation');
+              $('.blue-prt-logo').addClass('blue-prt-animation');              
+              
+          }
           });
       },1000);
+   
      });
   });
