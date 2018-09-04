@@ -183,7 +183,7 @@ height: 80px;}
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: -5.2px;
+    letter-spacing: -2.2px;
     color: #4a4a4a;
     margin-top: -30px;
   }
@@ -568,9 +568,8 @@ text-align: center;
   color: #fff;
 }
  .view-txt{
-  font-size: 29.9px;
+  font-size: 25.9px;
   font-weight: bold;
-  letter-spacing: -1.6px;
   color: #ffffff;
   border-radius: 22.1px;
   border: solid 1.5px #ffffff;
@@ -667,8 +666,8 @@ width: 210px;
 margin: auto;
   }
   .img-team img{
-    height: 214px;
-    width: 185px;
+    height: 234px;
+    width: 215px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-clip-path: polygon(50% 0%, 100% 29%, 100% 71%, 50% 100%, 0 72%, 0 26%);
@@ -677,7 +676,7 @@ margin: auto;
   }
   .part-shape{
     position: absolute;
-    bottom: 0;
+    bottom: -4%;
   }
   .details-team{
     margin-top: 7%;
@@ -736,6 +735,8 @@ margin: auto;
   }
   .ceo2 .part-shape{
     right: 0;
+    right: -14%;
+    bottom: -4%;
   }
   /* team member */
   .team-member{
@@ -1121,7 +1122,7 @@ background-color: #fff;
        /* Career-page */
        .career-pg .head-rubikal h1 {
         font-size: 40px;
-        letter-spacing: -4.5px;}    
+        letter-spacing: -2.5px;}    
        .team-pg .head-rubikal p {
         width: 100%;}
         .career-pg .head-rubikal .footer-img-hd {
